@@ -21,7 +21,7 @@ function fanPage(){
         img: 'https://vinyl-records.nl/pink-floyd/photo-gallery/switzerland/dark-side-of-the-moon-swiss/pink%20floyd%20dark%20side%20moon%20switzerland%202374.jpg',
         link: 'https://en.wikipedia.org/wiki/Pink Floyd',
         greatestHits: [
-            {song: "Comfortably Numb", year : 1979},
+            {song: "Comfortably Numb ", year : 1979},
             {song: "Wish You Were Here", year : 1975},
             {song: "Time", year : 1973},
             {song: "Shine On You Crazy Diamond", year : 1975},
