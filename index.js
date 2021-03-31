@@ -47,7 +47,7 @@ function fanPage(){
     $('#content').html("<div class='container group'></div>")
     $('.group').html(`<div class="greatest-hits">${text}</div>`);
     $('.greatest-hits').before(`<header class = "d-flex justify-content-center"><img class = "m-4"src=${musicGroup.img}  width="40%" ></header>`);
-    $('.greatest-hits').before(`<h1>${musicGroup.name}:Fan Page</h1>`);
+    $('.greatest-hits').before(`<h1>${musicGroup.name}</h1>`);
     $('ul').before(`<h2>${musicGroup.name}'s Greatest Hits</h2>`);
     ////////////////////////////////////
     let source1 = $('#handlebars-demo').html();
@@ -56,7 +56,7 @@ function fanPage(){
     $('#content').append("<div class='container group1 d-none'></div>")
     $('.group1').html(`<div class="greatest-hits1">${text1}</div>`);
     $('.greatest-hits1').before(`<header class = "header1 d-flex justify-content-center"><img class = "img1 m-4"src=${musicGroup1.img}  width="40%" ></header>`);
-    $('.greatest-hits1').before(`<h1 class = 'h1'>${musicGroup1.name}:Fan Page</h1>`);
+    $('.greatest-hits1').before(`<h1 class = 'h1'>${musicGroup1.name}</h1>`);
     $('.h1').after(`<h2 >${musicGroup1.name}'s Greatest Hits</h2>`);
 
     ///BUTTON
